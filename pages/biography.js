@@ -81,8 +81,6 @@ export default function Biography() {
             </div>
 
             <p className="py-2 text-lg font-semibold italic text-accent">
-              There’s a lot of beauty in ordinary things. Isn’t that kind of the
-              point?
             </p>
           </div>
 
