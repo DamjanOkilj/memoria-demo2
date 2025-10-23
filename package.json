@@ -1,0 +1,42 @@
+{
+  "name": "MEMORIA-PARANTAAR",
+  "description": "My photography portfolio",
+  "version": "3.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx}\""
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.0.16",
+    "@phosphor-icons/react": "^2.1.7",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "comma-number": "^2.1.0",
+    "contentful": "^8.4.2",
+    "graphql": "^15.5.0",
+    "next": "^15.5.6",
+    "next-seo": "^4.17.0",
+    "postcss": "^8.4.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-react": "^8.0.0",
+    "tailwindcss": "^4.0.0",
+    "unified": "^9.2.1"
+  },
+  "devDependencies": {
+    "prettier": "3.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.10"
+  }
+}
